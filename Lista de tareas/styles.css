@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 300px;
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);   /* Hace una sombra con 0, 0 de desplazamiento hacia los lados, unicamente 10px sombra suave */
+    border-radius: 8px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .task-input {
+    display: flex;
+    gap: 10px; /*Esto da un espacio de 10px entre los elementos e.e*/ 
+  }
+  
+  .task-input input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 8px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  li.completed {
+    text-decoration: line-through;  /* Esto raya el texto para simular que la tarea ya esta terminada*/
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .complete-btn {
+    background-color: #ffc107;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer; /* Esto hace que al cursor le aparezca una tipo de animacion para saber que un elemento puede ser clickeable  */
+  }
+  
+  .complete-btn:hover {
+    background-color: #e0a800;
+  }
+  
